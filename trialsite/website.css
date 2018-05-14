@@ -1,0 +1,197 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.row{
+    width:100.9%;
+}
+nav{
+    background-color:rgba(90, 188, 210, 0); 
+    position: fixed;
+    width:100%;
+    height: 50px;
+    z-index: 100;
+    transition: all 1s;
+}
+.bgc{
+    background-color: rgb(245, 245, 245);
+}
+.logo{
+    float:left;
+    padding:10px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.navdesign li{
+    float:right;
+    line-height: 50px;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+.navdesign li a{
+    color:black;
+    text-decoration: none;
+    font-size: 17;
+}
+.navdesign li a:hover{
+    color: orange;
+}
+.blood{
+    color:#212529;
+    transition: all 1s;
+}
+.change{
+    color:red;
+}
+#Home{
+    padding-top: 50px;
+    height: 70%;
+}
+#Repositories{
+    height: 55%;
+    background-color: black;
+    padding-top: 20px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+  
+}
+#Our-Work{
+    height: 50%;
+    background-color: black;
+    overflow: hidden;
+}
+.footer{
+    height:20%;
+    background-color: whitesmoke;   
+}
+.startbut{
+    margin-left: 43%;
+    margin-top: 350px;    
+    opacity: 0;
+}
+.info{
+    color: white;
+}
+.heading{
+    color:red;
+}
+.spresem{
+    height: 70%;
+    width: 80%;
+}
+i{
+    display: inline-flex;
+    vertical-align: middle;
+}
+.col-sm-6 {
+    overflow: hidden;
+    
+}
+.magic{
+    top: 100px;
+    opacity: 0;
+}
+.firstfoot{
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+.img2{
+    margin-left: -150px;
+    margin-top: 20px;
+    height: 330.33px;
+    width: 850.97px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.hidden li{
+    float:none;
+}
+.hidden{
+    color: white;
+    display: none;
+}
+.animate{
+    margin-left:30px;
+    opacity: 1 ;
+}
+.heads{
+    color: red;
+}
+.descript{
+    color:white;
+}
+.righttext{
+    margin-top: 20px;
+    left: 0;
+    opacity: 1;
+    transition: all 1.5s;
+}
+.borderback{
+    background-color: black;
+    height: 20px;
+}
+.divider{
+    height:2px;
+    width: 100px;
+    margin-left: 800px;
+    transition: all 1.5s;
+}
+.dividernew{
+    height: 2px;
+    width: 1300px;
+    margin-left: 190px;
+}
+.extension{
+    background-color: black;
+    height: 30%;
+}
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+.workimg{
+    float: left;
+    height:220px;
+    width:360px;
+    padding-left: 45px;
+    margin-top: 40px;
+    transition: all 0.5s;
+}
+.imgline2{
+    height : 40%;
+}
+.applyline1{
+    margin-top: -20px;
+}
+.applyline2{
+    margin-top: 40px;
+}
+.line1{
+    margin-left: 290px;
+}
+.line2{
+    margin-left: 460px;
+}
+.add1{
+    transition: all 0.5s;
+}
+.add2{
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.imganim{
+    width: 400px;
+    height:  260px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
